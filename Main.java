@@ -1,4 +1,4 @@
-package com.example.mathcompetencysurvey;
+package com.example.mathcompetency;
 
 public class Main {
     // Application code
@@ -6,12 +6,12 @@ public class Main {
         School sk1 = new School();
 
         // Direct access to attributes is not a good practices
-        sk1.setName("SK Satu");
+        sk1.setName("SK Impian Emas");
 
         Address addr = new Address();
-        addr.setStreet("Jalan 2");
+        addr.setStreet("Jalan 55");
         addr.setDistrict("JB");
-        addr.setPostcode("30021");
+        addr.setPostcode("81300");
         addr.setState("Johor");
         sk1.setAddress(addr);
 
